@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7a466cc51dc3e0f4dbc48f61d6bd3034
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212258
+  packageName: Scription - Easy Script Generator
+  packageVersion: 1.4.0
+  assetPath: Assets/Cerebrynth/Scription/Editor/Builder/Products/BuildBaseClass.cs
+  uploadId: 673047

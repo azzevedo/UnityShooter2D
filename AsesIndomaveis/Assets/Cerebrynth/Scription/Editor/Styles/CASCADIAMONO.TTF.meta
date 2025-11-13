@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 98fd5b48b0070bb46bd5d196370c8e4b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cascadia Mono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 62a258365cc02774aa84289db2093b1a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212258
+  packageName: Scription - Easy Script Generator
+  packageVersion: 1.4.0
+  assetPath: Assets/Cerebrynth/Scription/Editor/Styles/CASCADIAMONO.TTF
+  uploadId: 673047

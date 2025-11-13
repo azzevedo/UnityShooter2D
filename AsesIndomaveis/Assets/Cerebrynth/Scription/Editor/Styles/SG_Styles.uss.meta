@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4d241c9ca11116c479dff4806c7cbc7c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 12385, guid: 0000000000000000e000000000000000, type: 0}
+  disableValidation: 0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212258
+  packageName: Scription - Easy Script Generator
+  packageVersion: 1.4.0
+  assetPath: Assets/Cerebrynth/Scription/Editor/Styles/SG_Styles.uss
+  uploadId: 673047

@@ -1,0 +1,219 @@
+.root-background {
+    background-image: url('project://database/Assets/Cerebrynth/Scription/Editor/Styles/SG_Gradient.png?fileID=2800000&guid=cb2ded81a1df1b44e8f70a119be490d4&type=3#SG_Gradient');
+    -unity-background-scale-mode: scale-to-fit;
+    height: 100%;
+    flex-grow: 1;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.SG-button {
+    background-color: rgb(0, 124, 132);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 3px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-color: rgba(36, 36, 36, 0.24);
+    -unity-font-style: normal;
+}
+
+.SG-button:hover {
+    background-color: rgb(255, 155, 0);
+    color: rgb(255, 255, 255);
+}
+
+.SG-button:active {
+    background-color: rgb(0, 90, 96);
+    color: rgb(255, 155, 0);
+}
+
+.unity-enum-field__label {
+    min-width: 80px;
+    max-width: none;
+    width: auto;
+    -unity-text-align: upper-left;
+    color: rgb(238, 238, 238);
+    font-size: 12px;
+    -unity-font-style: normal;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-grow: 0;
+    white-space: normal;
+    -unity-font: url('project://database/Assets/Cerebrynth/Scription/Editor/Styles/CASCADIAMONO.TTF?fileID=12800000&guid=98fd5b48b0070bb46bd5d196370c8e4b&type=3#CASCADIAMONO');
+}
+
+.unity-enum-field__input {
+    background-color: rgb(0, 124, 132);
+    color: rgb(255, 255, 255);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 3px;
+    border-bottom-color: rgba(36, 36, 36, 0.24);
+    -unity-text-align: middle-left;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.unity-enum-field__input:active {
+    background-color: rgb(0, 90, 96);
+    color: rgb(255, 155, 0);
+}
+
+.unity-enum-field__input:hover {
+    background-color: rgb(255, 155, 0);
+    color: rgb(31, 31, 31);
+}
+
+.msg-button {
+    flex-shrink: 1;
+    color: rgb(238, 238, 238);
+    background-color: rgb(0, 124, 132);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 3px;
+    border-bottom-color: rgba(0, 0, 0, 0.16);
+    -unity-font-style: normal;
+    padding-left: 0;
+    padding-right: 0;
+    flex-grow: 1;
+    min-width: auto;
+    height: auto;
+    max-height: 20px;
+    max-width: none;
+    align-items: stretch;
+    font-size: 10px;
+}
+
+.unity-text-field__label {
+    min-width: 80px;
+    max-width: none;
+    width: auto;
+    -unity-text-align: upper-left;
+    color: rgb(238, 238, 238);
+    font-size: 12px;
+    -unity-font-style: normal;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-grow: 0;
+    white-space: normal;
+    -unity-font: url('project://database/Assets/Cerebrynth/Scription/Editor/Styles/CASCADIAMONO.TTF?fileID=12800000&guid=98fd5b48b0070bb46bd5d196370c8e4b&type=3#CASCADIAMONO');
+}
+
+.unity-toggle__label {
+    min-width: auto;
+    max-width: none;
+    width: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    flex-grow: 0;
+    margin-left: 0;
+    left: 1px;
+    color: rgb(238, 238, 238);
+    -unity-font: url('project://database/Assets/Cerebrynth/Scription/Editor/Styles/CASCADIAMONO.TTF?fileID=12800000&guid=98fd5b48b0070bb46bd5d196370c8e4b&type=3#CASCADIAMONO');
+}
+
+.unity-toolbar-toggle {
+    flex-grow: 0;
+    margin-left: 0;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 124, 132);
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    -unity-font-style: normal;
+    color: rgb(238, 238, 238);
+}
+
+.unity-toolbar-toggle:hover {
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 0;
+    margin-left: 0;
+    flex-shrink: 0;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    background-color: rgb(226, 91, 0);
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: rgb(67, 67, 67);
+}
+
+.unity-toolbar-toggle:active {
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 0;
+    margin-left: 0;
+    flex-shrink: 0;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 90, 96);
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.unity-toolbar-toggle:checked {
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 155, 0);
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    -unity-font-style: normal;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(0, 0, 0, 0.16);
+}
+
+.unity-toggle__input {
+    min-width: 0;
+    max-width: 0;
+    width: 0;
+    -unity-text-align: middle-center;
+    color: rgb(238, 238, 238);
+    font-size: 12px;
+    -unity-font-style: normal;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-grow: 0;
+    white-space: normal;
+    margin-left: 0;
+    flex-shrink: 0;
+}
+
+.unity-text-field__input {
+    -unity-font: url('project://database/Assets/Cerebrynth/Scription/Editor/Styles/CASCADIAMONO.TTF?fileID=12800000&guid=98fd5b48b0070bb46bd5d196370c8e4b&type=3#CASCADIAMONO');
+    -unity-font-style: normal;
+}
+
+.unity-label {
+    -unity-font: url('project://database/Assets/Cerebrynth/Scription/Editor/Styles/CASCADIAMONO.TTF?fileID=12800000&guid=98fd5b48b0070bb46bd5d196370c8e4b&type=3#CASCADIAMONO');
+}
+
+.unity-enum-field__input {
+    -unity-font-style: normal;
+    -unity-font: url('project://database/Assets/Cerebrynth/Scription/Editor/Styles/CASCADIAMONO.TTF?fileID=12800000&guid=98fd5b48b0070bb46bd5d196370c8e4b&type=3#CASCADIAMONO');
+}
