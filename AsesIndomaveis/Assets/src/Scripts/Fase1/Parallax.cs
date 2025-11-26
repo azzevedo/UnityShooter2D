@@ -1,26 +1,26 @@
 using UnityEngine;
 
 
-namespace Assets.src.Scripts.Fase1
+namespace AsesIndomaveis
 {
 	[RequireComponent(typeof(Renderer))]
 	public class Parallax : MonoBehaviour
 	{
-		[SerializeField] float _speed = 10f;
-		Renderer _mesh;
-		Vector2 _offset = Vector2.zero;
+		[SerializeField] float m_speed = 10f;
+		Renderer m_mesh;
+		Vector2 m_offset = Vector2.zero;
 
 		void Start()
 		{
-			_mesh = GetComponent<Renderer>();
+			m_mesh = GetComponent<Renderer>();
 		}
 
 		void Update()
 		{
 			// _offset.y = _speed * Time.time;
 			// _mesh.material.mainTextureOffset = _offset;
-			_offset.y = _speed * Time.deltaTime;
-			_mesh.material.mainTextureOffset += _offset;
+			m_offset.y = m_speed * Time.deltaTime;
+			m_mesh.material.mainTextureOffset += m_offset;
 		}
 	}
 }
