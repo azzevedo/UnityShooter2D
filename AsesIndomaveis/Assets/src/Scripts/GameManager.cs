@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-namespace Assets.src.Scripts
+namespace AsesIndomaveis
 {
 	public class GameManager : MonoBehaviour
 	{
